@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <style>
+      .myHeading {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 onclick="makeItClickable(event)" class="onyekuru">
+        This is the title of the page
+      </h1>
+      <h2>This is the subtitle of the page</h2>
+    </header>
+
+    <main>
+      <hr />
+
+      <ul class="yes" id="firstList">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+
+      <ul class="yes" id="secondList">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+
+      <a href="strive.school">This link goes to Strive School</a>
+
+      <div>
+        <p>This text is just for the exercise</p>
+      </div>
+
+      <div>
+        <input
+          type="text"
+          id="input-field"
+          placeholder="input field for the exercise"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <p onclick="changeFooterText(event)">
+        And this text is just for the exercise too!
+      </p>
+    </footer>
+    <script src="day7.js"></script>
+  </body>
+</html>
